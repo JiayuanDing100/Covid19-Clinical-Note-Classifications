@@ -27,11 +27,11 @@ Since label bias, manually constructed 27 extra fake None-Covid-19 cases.
 | True(pred) | TP=20 | FP=8 | 
 | False(pred) | FN=0 | TN=7 | 
 
-Precision = 20 / (20+8) = 0.71
+    Precision = 20 / (20+8) = 0.71
 
-Recall = 20 / (20 + 0) = 1
+    Recall = 20 / (20 + 0) = 1
 
-F1 = 0.83
+    F1 = 0.83
 
 <img src="image/e1.png" width="600" height="400">
 
@@ -66,6 +66,8 @@ Since label bias, manually copy 4 times of 14 original None-Covid-19 cases to ge
 
     F1 = 0.94
 
+<img src="image/e2.png" width="600" height="400">
+
 #### 3) 
 
 After deduplication (clinical notes) by 03-28-2020:
@@ -84,8 +86,10 @@ After deduplication (clinical notes) by 03-28-2020:
 | True(pred) | TP=19 | FP=10 | 
 | False(pred) | FN=2 | TN=5 | 
 
-Precision = 19 / (19+10) = 0.66
+    Precision = 19 / (19+10) = 0.66
 
-Recall = 19 / (19 + 2) = 0.9
+    Recall = 19 / (19 + 2) = 0.9
 
-F1 = 0.76
+    F1 = 0.76
+
+<img src="image/e3.png" width="600" height="400">
