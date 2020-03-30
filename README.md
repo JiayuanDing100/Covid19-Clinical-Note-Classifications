@@ -69,6 +69,14 @@ Since label bias, manually copy 4 times of 14 original None-Covid-19 cases to ge
 <img src="image/e2.png" width="600" height="400">
 
 #### 3) 
+MAX_SEQ_LENGTH = 256
+TRAIN_BATCH_SIZE = 10
+EVAL_BATCH_SIZE = 5
+LEARNING_RATE = 2e-5
+NUM_TRAIN_EPOCHS = 10
+RANDOM_SEED = 42
+GRADIENT_ACCUMULATION_STEPS = 1
+WARMUP_PROPORTION = 0.1
 
 After deduplication (clinical notes) by 03-28-2020:
 
@@ -93,3 +101,26 @@ After deduplication (clinical notes) by 03-28-2020:
     F1 = 0.76
 
 <img src="image/e3.png" width="600" height="400">
+
+
+#### 4) 
+
+Same training and test dataset with Experiment 3:
+
+MAX_SEQ_LENGTH = 256
+TRAIN_BATCH_SIZE = 7
+EVAL_BATCH_SIZE = 4
+LEARNING_RATE = 2e-5
+NUM_TRAIN_EPOCHS = 15
+RANDOM_SEED = 42
+GRADIENT_ACCUMULATION_STEPS = 1
+WARMUP_PROPORTION = 0.1
+
+
+    Precision = 19 / (19+10) = 0.66
+
+    Recall = 19 / (19 + 2) = 0.9
+
+    F1 = 0.76
+
+<img src="image/e4.png" width="600" height="400">
