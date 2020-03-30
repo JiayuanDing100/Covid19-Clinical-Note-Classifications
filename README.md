@@ -33,6 +33,8 @@ Recall = 20 / (20 + 0) = 1
 
 F1 = 0.83
 
+<img src="image/e1.png" width="600" height="400">
+
 #### 2) 
 
 After deduplication (clinical notes) by 03-27-2020:
