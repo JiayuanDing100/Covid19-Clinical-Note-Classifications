@@ -115,7 +115,7 @@ After deduplication (clinical notes) by 03-28-2020:
 
 #### 4) 
 
-Same training and test dataset with Experiment 3:
+Same training and test dataset with Experiment 3):
 
 Model Training Parameter Setting:
 
