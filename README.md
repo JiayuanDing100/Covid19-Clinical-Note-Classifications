@@ -135,10 +135,14 @@ GRADIENT_ACCUMULATION_STEPS = 1
 
 WARMUP_PROPORTION = 0.1
 
+| | True(label) | False(label) | 
+| ---| --- | --- | 
+| True(pred) | TP=18 | FP=8 | 
+| False(pred) | FN=3 | TN=7 | 
 
-    Precision = 19 / (19+10) = 0.66
+    Precision = 18 / (18+8) = 0.69
 
-    Recall = 19 / (19 + 2) = 0.9
+    Recall = 18 / (18 + 3) = 0.85
 
     F1 = 0.76
 
