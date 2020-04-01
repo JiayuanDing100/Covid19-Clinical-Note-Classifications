@@ -151,7 +151,7 @@ WARMUP_PROPORTION = 0.1
 #### 5)
 
 | | Covid-19 | None-Covid-19 |
-| ---| --- | --- | --- | 
+| ---| --- | --- | 
 | Training | 114 | 118 | 
 | Testing | 28 | 26 |
 
