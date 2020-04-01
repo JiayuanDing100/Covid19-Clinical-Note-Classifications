@@ -147,3 +147,37 @@ WARMUP_PROPORTION = 0.1
     F1 = 0.76
 
 <img src="image/e4.png" width="600" height="400">
+
+#### 5)
+
+Model Training Parameter Setting:
+
+MAX_SEQ_LENGTH = 256
+
+TRAIN_BATCH_SIZE = 7
+
+EVAL_BATCH_SIZE = 4
+
+LEARNING_RATE = 2e-5
+
+NUM_TRAIN_EPOCHS = 15
+
+RANDOM_SEED = 42
+
+GRADIENT_ACCUMULATION_STEPS = 1
+
+WARMUP_PROPORTION = 0.1
+
+| | True(label) | False(label) | 
+| ---| --- | --- | 
+| True(pred) | TP=24 | FP=5 | 
+| False(pred) | FN=4 | TN=23 | 
+
+    Precision = 24 / (24+5) = 0.827
+
+    Recall = 24 / (24 + 4) = 0.857
+
+    F1 = 84.2
+
+<img src="image/e5.png" width="600" height="400">
+
