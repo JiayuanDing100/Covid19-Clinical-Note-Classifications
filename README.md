@@ -153,7 +153,7 @@ WARMUP_PROPORTION = 0.1
 | | Covid-19 | None-Covid-19 |
 | ---| --- | --- | 
 | Training | 114 | 118 | 
-| Testing | 28 | 26 |
+| Testing | 28 | 28 |
 
 Model Training Parameter Setting:
 
