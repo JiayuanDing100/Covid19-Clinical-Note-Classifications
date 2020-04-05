@@ -148,12 +148,12 @@ WARMUP_PROPORTION = 0.1
 
 <img src="image/e4.png" width="600" height="400">
 
-#### 5)
+#### 6) final one
 
 | | Covid-19 | None-Covid-19 |
 | ---| --- | --- | 
-| Training | 114 | 118 | 
-| Testing | 28 | 28 |
+| Training | 128 | 128 | 
+| Testing | 32 | 30 |
 
 Model Training Parameter Setting:
 
@@ -175,14 +175,16 @@ WARMUP_PROPORTION = 0.1
 
 | | True(label) | False(label) | 
 | ---| --- | --- | 
-| True(pred) | TP=24 | FP=5 | 
-| False(pred) | FN=4 | TN=23 | 
+| True(pred) | TP=28 | FP=4 | 
+| False(pred) | FN=4 | TN=26 | 
 
-    Precision = 24 / (24+5) = 0.827
+    Precision = 28 / (28+4) = 0.875
 
-    Recall = 24 / (24 + 4) = 0.857
+    Recall = 28 / (28 + 4) = 0.875
 
-    F1 = 84.2
+    F1 = 0.875
 
-<img src="image/e5.png" width="600" height="400">
+<img src="image/e6.png" width="600" height="400">
+
+
 
