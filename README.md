@@ -148,7 +148,7 @@ WARMUP_PROPORTION = 0.1
 
 <img src="image/e4.png" width="600" height="400">
 
-#### 6) final one
+#### 6) final one (removing indicated keywords (COVID-19, SARS,MSERS) from dadaset)
 
 | | Covid-19 | None-Covid-19 |
 | ---| --- | --- | 
